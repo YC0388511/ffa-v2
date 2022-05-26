@@ -8,6 +8,11 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@babylonjs/core": "^5.7.0",
+    "@babylonjs/gui": "^5.7.0",
+    "@babylonjs/loaders": "^5.7.0",
+    "ammo.js": "github:kripken/ammo.js",
+    "ammojs-typed": "^1.0.6",
     "vue": "^3.2.13"
   },
   "devDependencies": {
