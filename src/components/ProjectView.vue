@@ -1,7 +1,12 @@
 <template>
   <div>
     <h3>Forensics Project</h3>
-    <canvas/>
+    <canvas />
+    <textarea cols="30" rows="10" readonly>
+Use WASD to move around and move the mouse to control where you're looking.
+A debug menu can be toggle via the B key to view general information.
+Note: Some things may appear white due to missing textures.
+    </textarea>
   </div>
 </template>
 
@@ -26,5 +31,9 @@ canvas {
 h3 {
   margin: 40px 0 0;
   color: rgb(234, 234, 234);
+}
+textarea {
+  color: rgb(234, 234, 234);
+  background-color: rgb(18, 22, 31);
 }
 </style>
